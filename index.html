@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <section class="formulario1">
+    <form action="web.php" method="GET">
+      <h1>Accede a tu Área de Clientes</h1>
+      <p>Elige tu documento</p>
+      <input type="radio" name="boton" value="1">Dni o Tarjeta de residencia
+      <br><br>
+      <input type="radio" name="boton" value="2" checked>Pasaporte
+    <p>
+    <p>Número de documento</p>
+    <input type="text" name="texto" value="DNI o tarjeta de residencia">
+    <p>Fecha de nacimiento</p>
+    <input type="text" name="texto" value="DD       |MM        |AAAA">
+    <br>
+    <br>
+    <input type="checkbox" name="casilla">Recordar<img src="./827.png" alt="">
+    <input type="hidden" name="nombre" value="pepito">
+    <br>
+    <br>
+    <button class="formulario1"  type="button" onclick="">Entrar</button>
+    <br>
+    <br>
+    <img src="./flecha.png" alt=""><a href="documento.html">Accede con DNI electronico</a>
+    <br>
+    <img src="./flecha.png" alt=""><a href="documento.html">Más información sobre seguridad</a>
+
+    <br>
+    </p>
+    </form>
+    </section>
+    <hr>
+    <section class="formulario2">
+      <form action="web.php" method="GET">
+        <h1>Empieza creando tu cuenta</h1>
+        <input class="iuno" type="text" name="texto" value="Nombre (Como sale en el DNI)">
+        <br>
+        <br>
+        <select class="idos" name="menu">
+          <option selected>...</option>
+          <optgroup label="Tipo de documento">
+            <option value="1">DNI</option>
+            <option value="2">NIE</option>
+            <option value="3">PASSAPORTE</option>
+          </optgroup>
+</select>
+        <input class="idos" type="text" name="texto" value="2º apellido (Como sale en el DNI)">
+        <br>
+        <br>
+        <input class="idos" type="text" name="texto" value="1º apellido (Como sale en el DNI)">
+        <input class="idos" type="text" name="texto" value="Numero de documento)">
+        <br>
+        <br>
+        
+        
+
+        <select class="idos" name="menu">
+          <option selected>...</option>
+          <optgroup label="🇪🇸">
+            <option value="1">DNI</option>
+            <option value="2">NIE</option>
+            <option value="3">PASSAPORTE</option>
+          </optgroup>
+</select>
+          <input class="idos" type="text" name="texto" value="Email">
+
+        
+      </form>
+      </section>
+      <hr>
+      <section class="formulario2">
+        <form action="web.php" method="GET">
+          <h1 class="ptres">¿Eres nuevo?</h1>
+          <p class="ptres">Regístrate para guardar tu información y hacer <br> tus pedidos de forma mas rapida y sencilla</p>
+          <p>Email</p>
+          <input class="iuno" type="text" name="texto" value="Nombre (Como sale en el DNI)">
+          <br>
+          <br>
+          <p>Teléfono</p>
+          <input class="iuno" type="text" name="texto" value="Nombre (Como sale en el DNI)">
+          <label class="iuno" for="userPassword"></label>
+          <br>
+          <br>
+          <p>Contraseña</p>
+          <input class="iuno" id="userPassword" type="password" size="12">
+          <br>
+          <br>
+          <p>Confirma tu contraseña</p>
+          <input class="iuno"  type="password" size="12">
+          <br>
+          <br>
+          <button class="formulario2"  type="button" onclick="">Entrar</button>
+          <br>
+          <p></p><input type="checkbox" name="casilla" checked>He leido y acepto la Politica de privacidad</p>
+          <p><input type="checkbox" name="casilla" checked>Si acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil.</p>
+
+        </form>
+        </section>
+
+       
+
+</body>
+</html>
